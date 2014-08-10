@@ -1,0 +1,10 @@
+Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Thu 07 Aug 2014 16:00:49 BST
+
+BeginCmp
+TimeStamp = /53E35F5B;
+Reference = U1;
+ValeurCmp = LPCXPRESSO_LPC1769_LPCXPRESSO_LPC1769;
+IdModule  = LPCXpresso_boards.mod:LPCXPRESSO_LPC1769;
+EndCmp
+
+EndListe

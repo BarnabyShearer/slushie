@@ -1,0 +1,6 @@
+*.bck
+*.bak
+*-cache.lib
+*-bak
+*.zip
+Out
