@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name LPCXpresso_boards.mod)(type Legacy)(uri ${KIPRJMOD}/LPCXpresso_boards.mod)(options "")(descr ""))
+  (lib (name SD)(type Legacy)(uri ${KIPRJMOD}/Footprints.mod)(options "")(descr ""))
+  (lib (name Local)(type KiCad)(uri ${KIPRJMOD}/slushie.pretty)(options "")(descr ""))
 )

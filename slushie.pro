@@ -1,4 +1,4 @@
-update=Fri 08 Aug 2014 16:19:00 BST
+update=Mon 11 Aug 2014 18:10:28 BST
 version=1
 last_client=kicad
 [cvpcb]
@@ -73,3 +73,6 @@ LibName29=contrib
 LibName30=valves
 LibName31=LPCXpresso_boards
 LibName32=DataStorage
+LibName33=mcp44x1
+LibName34=MCP23017
+LibName35=drv8825
