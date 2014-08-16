@@ -1,41 +1,40 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
 LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:LPCXpresso_boards
 LIBS:DataStorage
-LIBS:mcp44x1
+LIBS:LPCXpresso_boards
 LIBS:MCP23017
+LIBS:adc-dac
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:cmos4000
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:device
+LIBS:digital-audio
+LIBS:display
 LIBS:drv8825
+LIBS:dsp
+LIBS:intel
+LIBS:interface
+LIBS:linear
 LIBS:lm2575
-LIBS:slushie-cache
+LIBS:mcp44x1
+LIBS:memory
+LIBS:microchip
+LIBS:microcontrollers
+LIBS:motorola
+LIBS:opto
+LIBS:philips
+LIBS:power
+LIBS:regul
+LIBS:siliconi
+LIBS:special
+LIBS:texas
+LIBS:transistors
+LIBS:valves
+LIBS:xilinx
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
@@ -471,13 +470,13 @@ Text Label 1000 3100 2    60   ~ 0
 TX
 Text Label 1000 3200 2    60   ~ 0
 RX
-Text Label 1000 2500 2    60   ~ 0
+Text Label 1000 3000 2    60   ~ 0
 TH0
-Text Label 1000 2600 2    60   ~ 0
+Text Label 1000 2900 2    60   ~ 0
 TH1
-Text Label 1000 2700 2    60   ~ 0
-TH2
 Text Label 1000 2800 2    60   ~ 0
+TH2
+Text Label 1000 2700 2    60   ~ 0
 TH3
 Text Label 3700 4700 0    60   ~ 0
 LED1
@@ -501,9 +500,9 @@ Text Label 3700 2600 0    60   ~ 0
 PWM1
 Text Label 3700 5100 0    60   ~ 0
 STP4
-Text Label 1000 2900 2    60   ~ 0
+Text Label 1000 2600 2    60   ~ 0
 TH4
-Text Label 1000 3000 2    60   ~ 0
+Text Label 1000 2500 2    60   ~ 0
 TH5
 Text Notes 1900 2650 3    60   ~ 0
 AIN
