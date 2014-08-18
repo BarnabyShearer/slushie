@@ -1,40 +1,41 @@
 EESchema Schematic File Version 2
-LIBS:74xx
-LIBS:DataStorage
-LIBS:LPCXpresso_boards
-LIBS:MCP23017
-LIBS:adc-dac
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:cmos4000
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:device
-LIBS:digital-audio
-LIBS:display
-LIBS:drv8825
-LIBS:dsp
-LIBS:intel
-LIBS:interface
-LIBS:linear
-LIBS:lm2575
-LIBS:mcp44x1
-LIBS:memory
-LIBS:microchip
-LIBS:microcontrollers
-LIBS:motorola
-LIBS:opto
-LIBS:philips
 LIBS:power
-LIBS:regul
-LIBS:siliconi
-LIBS:special
-LIBS:texas
+LIBS:device
 LIBS:transistors
-LIBS:valves
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
 LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:LPCXpresso_boards
+LIBS:DataStorage
+LIBS:mcp44x1
+LIBS:MCP23017
+LIBS:drv8825
+LIBS:lm2575
+LIBS:slushie-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
@@ -478,28 +479,10 @@ Text Label 1000 2800 2    60   ~ 0
 TH2
 Text Label 1000 2700 2    60   ~ 0
 TH3
-Text Label 3700 4700 0    60   ~ 0
-LED1
-Text Label 3700 4600 0    60   ~ 0
-LED2
-Text Label 3700 4500 0    60   ~ 0
-LED3
-Text Label 3700 5000 0    60   ~ 0
-LED4
-Text Label 3700 4900 0    60   ~ 0
-STP0
-Text Label 3700 4800 0    60   ~ 0
-STP1
-Text Label 3700 5300 0    60   ~ 0
-STP2
-Text Label 3700 5200 0    60   ~ 0
-STP3
-Text Label 3700 2500 0    60   ~ 0
+Text Label 3700 2700 0    60   ~ 0
 PWM0
-Text Label 3700 2600 0    60   ~ 0
+Text Label 3700 2500 0    60   ~ 0
 PWM1
-Text Label 3700 5100 0    60   ~ 0
-STP4
 Text Label 1000 2600 2    60   ~ 0
 TH4
 Text Label 1000 2500 2    60   ~ 0
@@ -578,68 +561,14 @@ Text Notes 2950 4700 0    60   ~ 0
 LED4
 Text Label 3700 3600 0    60   ~ 0
 PAUSE
-Text Label 3700 2700 0    60   ~ 0
+Text Label 3700 2600 0    60   ~ 0
 PWM2
-Text Label 3700 2800 0    60   ~ 0
+Text Label 3700 3000 0    60   ~ 0
 PWM3
 Text Label 3700 2900 0    60   ~ 0
 PWM4
-Text Label 3700 3000 0    60   ~ 0
+Text Label 3700 2800 0    60   ~ 0
 PWM5
-Text Label 1000 5300 2    60   ~ 0
-STP5
-Text Label 1000 5200 2    60   ~ 0
-STP6
-Text Label 1000 5100 2    60   ~ 0
-STP7
-Text Label 1000 2300 2    60   ~ 0
-DIR4
-Text Label 1000 2400 2    60   ~ 0
-DIR5
-Text Label 1000 2200 2    60   ~ 0
-DIR6
-Text Label 1000 2100 2    60   ~ 0
-DIR7
-Text Label 3700 2100 0    60   ~ 0
-DIR0
-Text Label 3700 2200 0    60   ~ 0
-DIR1
-Text Label 3700 2300 0    60   ~ 0
-DIR2
-Text Label 3700 2400 0    60   ~ 0
-DIR3
-Text Label 1000 4600 2    60   ~ 0
-EN0
-Text Label 1000 4500 2    60   ~ 0
-EN1
-Text Label 1000 3300 2    60   ~ 0
-EN2
-Text Label 1000 3400 2    60   ~ 0
-EN3
-Text Label 1000 3500 2    60   ~ 0
-EN4
-Text Label 1000 3600 2    60   ~ 0
-EN5
-Text Label 3700 3100 0    60   ~ 0
-EN6
-Text Label 3700 3200 0    60   ~ 0
-EN7
-Text Label 3700 3300 0    60   ~ 0
-END0
-Text Label 1000 4400 2    60   ~ 0
-END1
-Text Label 3700 3500 0    60   ~ 0
-END2
-Text Label 1000 3700 2    60   ~ 0
-END3
-Text Label 1000 5000 2    60   ~ 0
-END4
-Text Label 1000 4900 2    60   ~ 0
-END5
-Text Label 1000 4800 2    60   ~ 0
-END6
-Text Label 1000 4700 2    60   ~ 0
-END7
 $Comp
 L R R36
 U 1 1 53E9EB95
@@ -835,7 +764,7 @@ F 1 "I²C" V 10900 3800 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 10850 3800 60  0001 C CNN
 F 3 "" H 10850 3800 60  0000 C CNN
 	1    10850 3800
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L +3.3V #PWR012
@@ -894,7 +823,7 @@ F 1 "SPI" V 10200 2650 60  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 10150 2650 60  0001 C CNN
 F 3 "" H 10150 2650 60  0000 C CNN
 	1    10150 2650
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L +3.3V #PWR014
@@ -935,7 +864,7 @@ F 1 "UART" V 10950 2700 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 10900 2700 60  0001 C CNN
 F 3 "" H 10900 2700 60  0000 C CNN
 	1    10900 2700
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L GND #PWR016
@@ -2779,4 +2708,90 @@ F 3 "" H 6600 900 60  0000 C CNN
 	1    6600 900 
 	0    1    1    0   
 $EndComp
+Text Label 1000 2100 2    60   ~ 0
+STP4
+Text Label 1000 2200 2    60   ~ 0
+EN4
+Text Label 1000 2400 2    60   ~ 0
+STP5
+Text Label 3700 5100 0    60   ~ 0
+EN5
+Text Label 1000 5100 2    60   ~ 0
+DIR5
+Text Label 1000 4800 2    60   ~ 0
+STP6
+Text Label 1000 3300 2    60   ~ 0
+EN6
+Text Label 1000 4400 2    60   ~ 0
+DIR6
+Text Label 1000 3400 2    60   ~ 0
+STP7
+Text Label 1000 4500 2    60   ~ 0
+EN7
+Text Label 1000 3500 2    60   ~ 0
+DIR7
+Text Label 3700 2100 0    60   ~ 0
+LED1
+Text Label 3700 2200 0    60   ~ 0
+LED2
+Text Label 3700 2300 0    60   ~ 0
+LED3
+Text Label 3700 2400 0    60   ~ 0
+LED4
+Text Label 1000 4600 2    60   ~ 0
+STP0
+Text Label 1000 3600 2    60   ~ 0
+EN0
+Text Label 1000 4700 2    60   ~ 0
+DIR0
+Text Label 1000 3700 2    60   ~ 0
+STP1
+Text Label 1000 5000 2    60   ~ 0
+EN1
+Text Label 1000 4900 2    60   ~ 0
+DIR1
+Text Label 3700 4900 0    60   ~ 0
+DIR3
+Text Label 3700 5000 0    60   ~ 0
+EN3
+Text Label 3700 5300 0    60   ~ 0
+DIR2
+Text Label 3700 5200 0    60   ~ 0
+STP3
+Text Label 1000 5200 2    60   ~ 0
+EN2
+Text Label 1000 5300 2    60   ~ 0
+STP2
+Text Label 3700 3500 0    60   ~ 0
+END7
+Text Label 3700 3300 0    60   ~ 0
+END6
+Text Label 3700 3200 0    60   ~ 0
+END5
+Text Label 3700 3100 0    60   ~ 0
+END4
+Text Label 3700 4800 0    60   ~ 0
+END3
+Text Label 3700 4500 0    60   ~ 0
+END2
+Text Label 3700 4700 0    60   ~ 0
+END1
+Text Label 3700 4600 0    60   ~ 0
+END0
+Text Label 1000 2300 2    60   ~ 0
+DIR4
+$Comp
+L GND #PWR063
+U 1 1 53F24961
+P 1800 7700
+F 0 "#PWR063" H 1800 7700 30  0001 C CNN
+F 1 "GND" H 1800 7630 30  0001 C CNN
+F 2 "" H 1800 7700 60  0000 C CNN
+F 3 "" H 1800 7700 60  0000 C CNN
+	1    1800 7700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 7650 1800 7700
+Connection ~ 1800 7650
 $EndSCHEMATC
