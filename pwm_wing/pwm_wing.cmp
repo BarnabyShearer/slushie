@@ -1,0 +1,66 @@
+Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Thu 21 Aug 2014 18:26:56 BST
+
+BeginCmp
+TimeStamp = /53F628B1;
+Reference = P1;
+ValeurCmp = CONN_4X2;
+IdModule  = Pin_Headers:Pin_Header_Angled_2x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F629AD;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = Connect:bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F63642;
+Reference = P3;
+ValeurCmp = CONN_6;
+IdModule  = Connect:bornier6;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F62CD9;
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F62DDB;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F62E78;
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F62B7D;
+Reference = U1;
+ValeurCmp = VN9205-e;
+IdModule  = Local:P²PAK;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F62B9F;
+Reference = U2;
+ValeurCmp = VN9205-e;
+IdModule  = Local:P²PAK;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F62C17;
+Reference = U3;
+ValeurCmp = VN9205-e;
+IdModule  = Local:P²PAK;
+EndCmp
+
+EndListe
