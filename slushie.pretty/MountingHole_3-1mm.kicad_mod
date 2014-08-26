@@ -1,12 +1,13 @@
-(module MountingHole_3-1mm (layer F.Cu) (tedit 53EB4D1F)
+(module MountingHole_3-1mm (layer F.Cu) (tedit 53FCBA84)
   (descr "Mounting hole, Befestigungsbohrung, 3,5mm, No Annular, Kein Restring,")
   (tags "Mounting hole, Befestigungsbohrung, 3,5mm, No Annular, Kein Restring,")
-  (fp_text reference "Nylon Only" (at 0 -2.032) (layer F.SilkS)
+  (fp_text reference "Nylon Only" (at 0 -2.032) (layer F.SilkS) hide
     (effects (font (size 0.6 0.6) (thickness 0.1)))
   )
   (fp_text value 3-1mm (at 0 2.159) (layer F.SilkS) hide
     (effects (font (size 0.6 0.6) (thickness 0.1)))
   )
+  (fp_circle (center 0 0) (end 3.5 0) (layer Dwgs.User) (width 0.15))
   (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu)
     (zone_connect 0))
 )
