@@ -1,9 +1,9 @@
-(module LPCXPRESSO_LPC1769 (layer F.Cu) (tedit 53FCBC6B)
+(module LPCXPRESSO_LPC1769 (layer F.Cu) (tedit 53FCBD09)
   (fp_text reference U2 (at -2.54 0 90) (layer Eco1.User)
-    (effects (font (size 1 1) (thickness 0.1)))
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
   (fp_text value "LPC1769 LPCXpresso" (at 34.29 -11.43) (layer Eco1.User)
-    (effects (font (size 1 1) (thickness 0.1)))
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
   (fp_line (start -3.81 -1.905) (end -3.81 -20.955) (layer Dwgs.User) (width 0.15))
   (fp_text user LPC-Link (at -37.719 -9.271) (layer Dwgs.User) hide

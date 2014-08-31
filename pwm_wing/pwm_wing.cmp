@@ -1,45 +1,66 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Thu 21 Aug 2014 18:26:56 BST
+Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Fri 29 Aug 2014 14:35:32 BST
+
+BeginCmp
+TimeStamp = /54007598;
+Reference = P1;
+ValeurCmp = CONN_1;
+IdModule  = Local:TabRA;
+EndCmp
+
+BeginCmp
+TimeStamp = /54007677;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = Local:TabRA;
+EndCmp
 
 BeginCmp
 TimeStamp = /53F628B1;
-Reference = P1;
+Reference = P3;
 ValeurCmp = CONN_4X2;
 IdModule  = Pin_Headers:Pin_Header_Angled_2x04;
 EndCmp
 
 BeginCmp
-TimeStamp = /53F629AD;
-Reference = P2;
-ValeurCmp = CONN_2;
-IdModule  = Connect:bornier2;
+TimeStamp = /54007DBB;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = Local:TabRA;
 EndCmp
 
 BeginCmp
-TimeStamp = /53F63642;
-Reference = P3;
-ValeurCmp = CONN_6;
-IdModule  = Connect:bornier6;
+TimeStamp = /54008073;
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = Local:TabRA;
+EndCmp
+
+BeginCmp
+TimeStamp = /540080C2;
+Reference = P6;
+ValeurCmp = CONN_1;
+IdModule  = Local:TabRA;
 EndCmp
 
 BeginCmp
 TimeStamp = /53F62CD9;
 Reference = R1;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0805_HandSoldering;
+IdModule  = Local:0805R;
 EndCmp
 
 BeginCmp
 TimeStamp = /53F62DDB;
 Reference = R2;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0805_HandSoldering;
+IdModule  = Local:0805R;
 EndCmp
 
 BeginCmp
 TimeStamp = /53F62E78;
 Reference = R3;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0805_HandSoldering;
+IdModule  = Local:0805R;
 EndCmp
 
 BeginCmp

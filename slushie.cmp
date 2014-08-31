@@ -1,7 +1,7 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Tue 26 Aug 2014 17:42:21 BST
+Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Wed 27 Aug 2014 19:41:22 BST
 
 BeginCmp
-TimeStamp = /53FCA02D;
+TimeStamp = /53FD075E;
 Reference = BOOT1;
 ValeurCmp = CONN_2;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
@@ -95,42 +95,42 @@ BeginCmp
 TimeStamp = /53E505F2;
 Reference = C14;
 ValeurCmp = 10µF;
-IdModule  = Local:EIA3216;
+IdModule  = Local:0805C;
 EndCmp
 
 BeginCmp
 TimeStamp = /53E9EB9B;
 Reference = C15;
 ValeurCmp = 10µF;
-IdModule  = Local:EIA3216;
+IdModule  = Local:0805C;
 EndCmp
 
 BeginCmp
 TimeStamp = /53E9EC52;
 Reference = C16;
 ValeurCmp = 10µF;
-IdModule  = Local:EIA3216;
+IdModule  = Local:0805C;
 EndCmp
 
 BeginCmp
 TimeStamp = /53E9ED9D;
 Reference = C17;
 ValeurCmp = 10µF;
-IdModule  = Local:EIA3216;
+IdModule  = Local:0805C;
 EndCmp
 
 BeginCmp
 TimeStamp = /53E9EDB6;
 Reference = C18;
 ValeurCmp = 10µF;
-IdModule  = Local:EIA3216;
+IdModule  = Local:0805C;
 EndCmp
 
 BeginCmp
 TimeStamp = /53E9EDCF;
 Reference = C19;
 ValeurCmp = 10µF;
-IdModule  = Local:EIA3216;
+IdModule  = Local:0805C;
 EndCmp
 
 BeginCmp
@@ -141,21 +141,21 @@ IdModule  = Local:0805LED;
 EndCmp
 
 BeginCmp
-TimeStamp = /53FD21B1;
+TimeStamp = /53EBA8E7;
 Reference = D2;
 ValeurCmp = LED;
 IdModule  = Local:0805LED;
 EndCmp
 
 BeginCmp
-TimeStamp = /53FD256A;
+TimeStamp = /53EBA797;
 Reference = D3;
 ValeurCmp = LED;
 IdModule  = Local:0805LED;
 EndCmp
 
 BeginCmp
-TimeStamp = /53FD2863;
+TimeStamp = /53EB9E2C;
 Reference = D4;
 ValeurCmp = LED;
 IdModule  = Local:0805LED;
@@ -232,28 +232,28 @@ IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
 EndCmp
 
 BeginCmp
-TimeStamp = /53FCA142;
+TimeStamp = /53FCECF5;
 Reference = LED1;
 ValeurCmp = CONN_2;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
-TimeStamp = /53FD21AA;
+TimeStamp = /53FCEBF1;
 Reference = LED2;
 ValeurCmp = CONN_2;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
-TimeStamp = /53FD2563;
+TimeStamp = /53FCED77;
 Reference = LED3;
 ValeurCmp = CONN_2;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
-TimeStamp = /53FD285C;
+TimeStamp = /53FCEDFA;
 Reference = LED4;
 ValeurCmp = CONN_2;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
@@ -274,7 +274,7 @@ IdModule  = Local:TabRA;
 EndCmp
 
 BeginCmp
-TimeStamp = /53FC9E11;
+TimeStamp = /53FD07F8;
 Reference = PAUSE1;
 ValeurCmp = CONN_2;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
@@ -498,21 +498,21 @@ IdModule  = Local:0805R;
 EndCmp
 
 BeginCmp
-TimeStamp = /53FD219A;
+TimeStamp = /53EBA8E0;
 Reference = R32;
 ValeurCmp = 1k;
 IdModule  = Local:0805R;
 EndCmp
 
 BeginCmp
-TimeStamp = /53FD2553;
+TimeStamp = /53EBA790;
 Reference = R33;
 ValeurCmp = 1k;
 IdModule  = Local:0805R;
 EndCmp
 
 BeginCmp
-TimeStamp = /53FD284C;
+TimeStamp = /53EB99A5;
 Reference = R34;
 ValeurCmp = 1k;
 IdModule  = Local:0805R;
@@ -561,7 +561,7 @@ IdModule  = Local:0805R;
 EndCmp
 
 BeginCmp
-TimeStamp = /53FCA0C1;
+TimeStamp = /53FD0610;
 Reference = RESET1;
 ValeurCmp = CONN_2;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
@@ -655,7 +655,7 @@ BeginCmp
 TimeStamp = /53E35F5B;
 Reference = U2;
 ValeurCmp = LPC1769 LPCXpresso;
-IdModule  = LPCXpresso_boards.mod:LPCXPRESSO_LPC1769;
+IdModule  = Local:LPCXPRESSO_LPC1769;
 EndCmp
 
 BeginCmp
