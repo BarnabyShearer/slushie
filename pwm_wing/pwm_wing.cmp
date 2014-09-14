@@ -1,16 +1,30 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Fri 29 Aug 2014 14:35:32 BST
+Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Mon 08 Sep 2014 18:15:52 BST
+
+BeginCmp
+TimeStamp = /540DE56D;
+Reference = M1;
+ValeurCmp = GND;
+IdModule  = Local:MountingHole_3-1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /540DE5EF;
+Reference = M2;
+ValeurCmp = GND;
+IdModule  = Local:MountingHole_3-1mm;
+EndCmp
 
 BeginCmp
 TimeStamp = /54007598;
 Reference = P1;
-ValeurCmp = CONN_1;
+ValeurCmp = +24V;
 IdModule  = Local:TabRA;
 EndCmp
 
 BeginCmp
 TimeStamp = /54007677;
 Reference = P2;
-ValeurCmp = CONN_1;
+ValeurCmp = GND;
 IdModule  = Local:TabRA;
 EndCmp
 
@@ -24,21 +38,21 @@ EndCmp
 BeginCmp
 TimeStamp = /54007DBB;
 Reference = P4;
-ValeurCmp = CONN_1;
+ValeurCmp = PWM1;
 IdModule  = Local:TabRA;
 EndCmp
 
 BeginCmp
 TimeStamp = /54008073;
 Reference = P5;
-ValeurCmp = CONN_1;
+ValeurCmp = PWM2;
 IdModule  = Local:TabRA;
 EndCmp
 
 BeginCmp
 TimeStamp = /540080C2;
 Reference = P6;
-ValeurCmp = CONN_1;
+ValeurCmp = PWM3;
 IdModule  = Local:TabRA;
 EndCmp
 
