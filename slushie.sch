@@ -36,8 +36,9 @@ LIBS:MCP23017
 LIBS:drv8825
 LIBS:lm2575
 LIBS:tr05s
+LIBS:magjack
 LIBS:slushie-cache
-EELAYER 24 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -63,7 +64,7 @@ F 3 "" H 2200 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RJ45-TRANSFO ETHERNET1
+L MAGJACK ETHERNET1
 U 1 1 53E4DB1F
 P 10400 1400
 F 0 "ETHERNET1" H 10500 2000 60  0000 L CNN
@@ -107,13 +108,13 @@ Text Label 3700 1700 0    60   ~ 0
 TD-
 Text Label 3700 1800 0    60   ~ 0
 TD+
-Text Label 9300 900  2    60   ~ 0
-TD+
-Text Label 9300 1100 2    60   ~ 0
-TD-
 Text Label 9300 1200 2    60   ~ 0
-RD+
+TD+
 Text Label 9300 1400 2    60   ~ 0
+TD-
+Text Label 9300 900  2    60   ~ 0
+RD+
+Text Label 9300 1100 2    60   ~ 0
 RD-
 $Comp
 L +3.3V #PWR02
@@ -1674,12 +1675,12 @@ END4
 $Comp
 L GND #PWR038
 U 1 1 53EF5F71
-P 10050 2150
-F 0 "#PWR038" H 10050 2150 30  0001 C CNN
-F 1 "GND" H 10050 2080 30  0001 C CNN
-F 2 "" H 10050 2150 60  0000 C CNN
-F 3 "" H 10050 2150 60  0000 C CNN
-	1    10050 2150
+P 11000 2050
+F 0 "#PWR038" H 11000 2050 30  0001 C CNN
+F 1 "GND" H 11000 1980 30  0001 C CNN
+F 2 "" H 11000 2050 60  0000 C CNN
+F 3 "" H 11000 2050 60  0000 C CNN
+	1    11000 2050
 	1    0    0    -1  
 $EndComp
 NoConn ~ 1000 1200
@@ -2093,14 +2094,7 @@ Wire Wire Line
 	7750 1700 7750 1750
 Connection ~ 7750 1700
 Wire Wire Line
-	11000 2050 11000 1800
-Wire Wire Line
-	9250 2050 11000 2050
-Wire Wire Line
-	9250 2050 9250 1500
-Wire Wire Line
-	9250 1500 9300 1500
-Connection ~ 10050 2050
+	11000 1550 11000 2050
 Wire Wire Line
 	9300 1000 9050 1000
 Wire Wire Line
@@ -2565,8 +2559,6 @@ Wire Wire Line
 	7950 4250 8100 4250
 Connection ~ 8000 4250
 Wire Wire Line
-	10050 2150 10050 2050
-Wire Wire Line
 	5250 3300 5800 3300
 Wire Wire Line
 	5500 3300 5500 3200
@@ -2752,4 +2744,10 @@ Connection ~ 6200 900
 Connection ~ 6200 1000
 Connection ~ 5050 1500
 Connection ~ 6200 1100
+Wire Wire Line
+	10950 1650 11000 1650
+Connection ~ 11000 1800
+Wire Wire Line
+	10950 1550 11000 1550
+Connection ~ 11000 1650
 $EndSCHEMATC
