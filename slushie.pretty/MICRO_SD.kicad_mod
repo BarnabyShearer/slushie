@@ -25,7 +25,7 @@
   (pad SHLD smd rect (at -7.38 13.83) (size 1 1.9) (layers F.Cu F.Paste F.Mask))
   (pad SHLD smd rect (at 6.76 2.35) (size 1 1.9) (layers F.Cu F.Paste F.Mask))
   (pad SHLD smd rect (at -7.38 2.5) (size 1 2.2) (layers F.Cu F.Paste F.Mask))
-  (model /home/barnaby/workspace/slushie/sdcard.wrl
+  (model sdcard.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

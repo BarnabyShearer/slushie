@@ -15,7 +15,7 @@
   (pad 1 thru_hole rect (at -2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole oval (at 0 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 3 thru_hole oval (at 2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  (model /home/barnaby/workspace/slushie/Samtec-TSW-101-09-G-T-RA.wrl
+  (model Samtec-TSW-101-09-G-T-RA.wrl
     (at (xyz 0.1599999964237213 -0.05000000074505806 0.1500000059604645))
     (scale (xyz 393.7000122070312 393.7000122070312 393.7000122070312))
     (rotate (xyz 0 180 90))
