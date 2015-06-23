@@ -456,7 +456,7 @@
       (net 2 GND))
     (pad 3 thru_hole circle (at 2.54 0 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 +3.3V))
-    (model /home/barnaby/workspace/slushie/tr05s.wrl
+    (model tr05s.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -750,7 +750,7 @@
       (net 2 GND) (zone_connect 2))
     (pad 1 smd rect (at 0 0 270) (size 8 2) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model /home/barnaby/workspace/slushie/tab.wrl
+    (model tab.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -773,7 +773,7 @@
       (net 84 "Net-(C1-Pad1)") (zone_connect 2))
     (pad 1 smd rect (at 0 0 270) (size 8 2) (layers F.Cu F.Paste F.Mask)
       (net 84 "Net-(C1-Pad1)"))
-    (model /home/barnaby/workspace/slushie/tab.wrl
+    (model tab.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -906,7 +906,7 @@
       (net 32 "Net-(END1-Pad2)"))
     (pad 3 thru_hole oval (at 2.54 0 90) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 +3.3V))
-    (model /home/barnaby/workspace/slushie/Samtec-TSW-101-09-G-T-RA.wrl
+    (model Samtec-TSW-101-09-G-T-RA.wrl
       (at (xyz 0.1599999964237213 -0.05000000074505806 0.1500000059604645))
       (scale (xyz 393.7000122070312 393.7000122070312 393.7000122070312))
       (rotate (xyz 0 180 90))
@@ -935,7 +935,7 @@
       (net 33 "Net-(END2-Pad2)"))
     (pad 3 thru_hole oval (at 2.54 0 90) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 +3.3V))
-    (model /home/barnaby/workspace/slushie/Samtec-TSW-101-09-G-T-RA.wrl
+    (model Samtec-TSW-101-09-G-T-RA.wrl
       (at (xyz 0.1599999964237213 -0.05000000074505806 0.1500000059604645))
       (scale (xyz 393.7000122070312 393.7000122070312 393.7000122070312))
       (rotate (xyz 0 180 90))
@@ -964,7 +964,7 @@
       (net 34 "Net-(END3-Pad2)"))
     (pad 3 thru_hole oval (at 2.54 0 90) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 +3.3V))
-    (model /home/barnaby/workspace/slushie/Samtec-TSW-101-09-G-T-RA.wrl
+    (model Samtec-TSW-101-09-G-T-RA.wrl
       (at (xyz 0.1599999964237213 -0.05000000074505806 0.1500000059604645))
       (scale (xyz 393.7000122070312 393.7000122070312 393.7000122070312))
       (rotate (xyz 0 180 90))
@@ -993,7 +993,7 @@
       (net 35 "Net-(END4-Pad2)"))
     (pad 3 thru_hole oval (at 2.54 0 90) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 +3.3V))
-    (model /home/barnaby/workspace/slushie/Samtec-TSW-101-09-G-T-RA.wrl
+    (model Samtec-TSW-101-09-G-T-RA.wrl
       (at (xyz 0.1599999964237213 -0.05000000074505806 0.1500000059604645))
       (scale (xyz 393.7000122070312 393.7000122070312 393.7000122070312))
       (rotate (xyz 0 180 90))
@@ -1022,7 +1022,7 @@
       (net 36 "Net-(END5-Pad2)"))
     (pad 3 thru_hole oval (at 2.54 0 90) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 +3.3V))
-    (model /home/barnaby/workspace/slushie/Samtec-TSW-101-09-G-T-RA.wrl
+    (model Samtec-TSW-101-09-G-T-RA.wrl
       (at (xyz 0.1599999964237213 -0.05000000074505806 0.1500000059604645))
       (scale (xyz 393.7000122070312 393.7000122070312 393.7000122070312))
       (rotate (xyz 0 180 90))
@@ -1051,7 +1051,7 @@
       (net 37 "Net-(END6-Pad2)"))
     (pad 3 thru_hole oval (at 2.54 0 90) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 +3.3V))
-    (model /home/barnaby/workspace/slushie/Samtec-TSW-101-09-G-T-RA.wrl
+    (model Samtec-TSW-101-09-G-T-RA.wrl
       (at (xyz 0.1599999964237213 -0.05000000074505806 0.1500000059604645))
       (scale (xyz 393.7000122070312 393.7000122070312 393.7000122070312))
       (rotate (xyz 0 180 90))
@@ -1080,7 +1080,7 @@
       (net 38 "Net-(END7-Pad2)"))
     (pad 3 thru_hole oval (at 2.54 0 90) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 +3.3V))
-    (model /home/barnaby/workspace/slushie/Samtec-TSW-101-09-G-T-RA.wrl
+    (model Samtec-TSW-101-09-G-T-RA.wrl
       (at (xyz 0.1599999964237213 -0.05000000074505806 0.1500000059604645))
       (scale (xyz 393.7000122070312 393.7000122070312 393.7000122070312))
       (rotate (xyz 0 180 90))
@@ -1109,7 +1109,7 @@
       (net 39 "Net-(END8-Pad2)"))
     (pad 3 thru_hole oval (at 2.54 0 90) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 +3.3V))
-    (model /home/barnaby/workspace/slushie/Samtec-TSW-101-09-G-T-RA.wrl
+    (model Samtec-TSW-101-09-G-T-RA.wrl
       (at (xyz 0.1599999964237213 -0.05000000074505806 0.1500000059604645))
       (scale (xyz 393.7000122070312 393.7000122070312 393.7000122070312))
       (rotate (xyz 0 180 90))
@@ -3573,7 +3573,7 @@
       (net 2 GND))
     (pad SHLD smd rect (at -7.38 2.5 180) (size 1 2.2) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model /home/barnaby/workspace/slushie/sdcard.wrl
+    (model sdcard.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

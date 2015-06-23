@@ -52,9 +52,9 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=/home/barnaby/workspace/slushie/MCP23017
-LibName32=/home/barnaby/workspace/slushie/mcp44x1
-LibName33=/home/barnaby/workspace/slushie/drv8825
+LibName31=../MCP23017
+LibName32=../mcp44x1
+LibName33=../drv8825
 [pcbnew]
 version=1
 PageLayoutDescrFile=

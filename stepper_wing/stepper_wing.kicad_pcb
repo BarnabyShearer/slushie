@@ -648,7 +648,7 @@
       (net 3 +24V) (clearance 0.5) (zone_connect 2))
     (pad 1 smd rect (at 0 0 90) (size 8.5 2) (layers F.Cu F.Paste F.Mask)
       (net 3 +24V) (clearance 0.5))
-    (model /home/barnaby/workspace/slushie/tab.wrl
+    (model tab.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -671,7 +671,7 @@
       (net 2 GND) (clearance 0.5) (zone_connect 2))
     (pad 1 smd rect (at 0 0 270) (size 8.5 2) (layers F.Cu F.Paste F.Mask)
       (net 2 GND) (clearance 0.5))
-    (model /home/barnaby/workspace/slushie/tab.wrl
+    (model tab.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

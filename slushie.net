@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source /home/barnaby/workspace/slushie/slushie.sch)
+    (source slushie.sch)
     (date "Mon 08 Sep 2014 19:35:44 BST")
     (tool "Eeschema (2014-08-05 BZR 5054)-product"))
   (components

@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source /home/barnaby/workspace/slushie/stepper_wing/stepper_wing.sch)
+    (source stepper_wing/stepper_wing.sch)
     (date "Wed 27 Aug 2014 18:58:19 BST")
     (tool "Eeschema (2014-08-05 BZR 5054)-product"))
   (components
@@ -385,13 +385,13 @@
     (library (logical conn)
       (uri /usr/local/share/kicad/library/conn.lib))
     (library (logical mcp44x1)
-      (uri /home/barnaby/workspace/slushie/mcp44x1.lib))
+      (uri mcp44x1.lib))
     (library (logical device)
       (uri /usr/local/share/kicad/library/device.lib))
     (library (logical MCP23017)
-      (uri /home/barnaby/workspace/slushie/MCP23017.lib))
+      (uri MCP23017.lib))
     (library (logical drv8825)
-      (uri /home/barnaby/workspace/slushie/drv8825.lib)))
+      (uri drv8825.lib)))
   (nets
     (net (code 1) (name +3.3V)
       (node (ref U2) (pin 16))

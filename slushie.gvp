@@ -26,5 +26,5 @@
 (define-layer! 2 (cons 'filename "Out/slushie-NPTH.drl")(cons 'visible #f)(cons 'color #(12156 12156 12156))(cons 'attribs (list (list 'autodetect 'Boolean 1) (list 'zero_supression 'Enum 1) (list 'units 'Enum 1) (list 'digits 'Integer 3))))
 (define-layer! 1 (cons 'filename "Out/slushie.drl")(cons 'visible #f)(cons 'color #(26954 26954 26954))(cons 'attribs (list (list 'autodetect 'Boolean 1) (list 'zero_supression 'Enum 1) (list 'units 'Enum 1) (list 'digits 'Integer 3))))
 (define-layer! 0 (cons 'filename "Out/slushie-Edge_Cuts.gbr")(cons 'visible #f)(cons 'color #(47802 47802 47802)))
-(define-layer! -1 (cons 'filename "/home/barnaby/slushie/pwm_wing/Out")(cons 'visible #f)(cons 'color #(0 0 0)))
+(define-layer! -1 (cons 'filename "pwm_wing/Out")(cons 'visible #f)(cons 'color #(0 0 0)))
 (set-render-type! 0)

@@ -1,4 +1,4 @@
-(pcb /home/barnaby/workspace/slushie/stepper_wing/stepper_wing.dsn
+(pcb stepper_wing/stepper_wing.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)

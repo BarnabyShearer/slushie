@@ -142,7 +142,7 @@
       (net 5 +24V) (zone_connect 2))
     (pad 1 smd rect (at 0 0) (size 8 2) (layers F.Cu F.Paste F.Mask)
       (net 5 +24V))
-    (model /home/barnaby/workspace/slushie/tab.wrl
+    (model tab.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -165,7 +165,7 @@
       (net 9 "Net-(P4-Pad1)") (zone_connect 2))
     (pad 1 smd rect (at 0 0) (size 8 2) (layers F.Cu F.Paste F.Mask)
       (net 9 "Net-(P4-Pad1)"))
-    (model /home/barnaby/workspace/slushie/tab.wrl
+    (model tab.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -188,7 +188,7 @@
       (net 10 "Net-(P5-Pad1)") (zone_connect 2))
     (pad 1 smd rect (at 0 0) (size 8 2) (layers F.Cu F.Paste F.Mask)
       (net 10 "Net-(P5-Pad1)"))
-    (model /home/barnaby/workspace/slushie/tab.wrl
+    (model tab.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -211,7 +211,7 @@
       (net 11 "Net-(P6-Pad1)") (zone_connect 2))
     (pad 1 smd rect (at 0 0) (size 8 2) (layers F.Cu F.Paste F.Mask)
       (net 11 "Net-(P6-Pad1)"))
-    (model /home/barnaby/workspace/slushie/tab.wrl
+    (model tab.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -402,7 +402,7 @@
       (net 1 GND) (clearance 0.5) (zone_connect 2))
     (pad 1 smd rect (at 0 0) (size 8.5 2) (layers F.Cu F.Paste F.Mask)
       (net 1 GND) (clearance 0.5))
-    (model /home/barnaby/workspace/slushie/tab.wrl
+    (model tab.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
